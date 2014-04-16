@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ECViewController : UIViewController
-
+@interface ECViewController : UIViewController <UIGestureRecognizerDelegate>
+{
+    BOOL playerSelected;
+    
+    int tagValue;
+}
 @end

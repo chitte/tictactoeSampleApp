@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2ADDC8BD18C5E2A70039F11E /* METoast.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ADDC8BC18C5E2A70039F11E /* METoast.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		9734FD6118C4B5B500273B05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9734FD6018C4B5B500273B05 /* Foundation.framework */; };
 		9734FD6318C4B5B500273B05 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9734FD6218C4B5B500273B05 /* CoreGraphics.framework */; };
 		9734FD6518C4B5B500273B05 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9734FD6418C4B5B500273B05 /* UIKit.framework */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2ADDC8BB18C5E2A70039F11E /* METoast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = METoast.h; sourceTree = "<group>"; };
+		2ADDC8BC18C5E2A70039F11E /* METoast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = METoast.m; sourceTree = "<group>"; };
 		9734FD5D18C4B5B500273B05 /* tictactoeSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tictactoeSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9734FD6018C4B5B500273B05 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9734FD6218C4B5B500273B05 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -79,9 +82,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2ADDC8BA18C5E2A70039F11E /* METoast */ = {
+			isa = PBXGroup;
+			children = (
+				2ADDC8BB18C5E2A70039F11E /* METoast.h */,
+				2ADDC8BC18C5E2A70039F11E /* METoast.m */,
+			);
+			path = METoast;
+			sourceTree = "<group>";
+		};
 		9734FD5418C4B5B400273B05 = {
 			isa = PBXGroup;
 			children = (
+				2ADDC8BA18C5E2A70039F11E /* METoast */,
 				9734FD6618C4B5B500273B05 /* tictactoeSampleApp */,
 				9734FD8518C4B5B500273B05 /* tictactoeSampleAppTests */,
 				9734FD5F18C4B5B500273B05 /* Frameworks */,
@@ -250,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2ADDC8BD18C5E2A70039F11E /* METoast.m in Sources */,
 				9734FD7718C4B5B500273B05 /* ECViewController.m in Sources */,
 				9734FD7118C4B5B500273B05 /* ECAppDelegate.m in Sources */,
 				9734FD6D18C4B5B500273B05 /* main.m in Sources */,
@@ -461,6 +475,7 @@
 				9734FD9118C4B5B500273B05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9734FD9218C4B5B500273B05 /* Build configuration list for PBXNativeTarget "tictactoeSampleAppTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +484,7 @@
 				9734FD9418C4B5B500273B05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
